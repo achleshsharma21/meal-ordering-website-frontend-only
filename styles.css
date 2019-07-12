@@ -1,0 +1,451 @@
+html{
+	scroll-behavior: smooth;
+}
+/******************PAGE 1****************************PAGE 1************************PAGE 1********************PAGE 1*****************/
+.page1{
+	background-image: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)),url("bg1.jpg")  ;
+	height: 100vh;
+	background-repeat: no-repeat; 
+    background-size: 100%;
+}
+.o1{
+	font-family: 'Bree Serif', serif;
+	font-size: 25px;
+	color: white;
+	left: 0;
+	padding: -10px 100px;
+}
+.vid1{
+	/*padding: 20px 0px;*/
+	top: 20px;
+}
+@font-face {
+    font-family: 'peaches_and_creamregular';
+    src: url("Peaches and Cream Regular.otf");
+
+}
+@font-face{
+	font-family: 'lulo_clean';
+	src:url("Lulo Clean W01 One Bold.ttf");
+}
+.lefts
+{
+	font-family: 'peaches_and_creamregular';
+	float: left;
+	font-size: 70px;
+	color: white;
+	margin: 0px 20px;
+}
+.main-nav li a:hover
+{
+background-color: transparent;
+color: #f4be41;
+}
+.main-nav li
+{
+	float: right;
+	background-color: transparent;
+}
+.main-nav{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	/*overflow: hidden;*/
+	/*full navbar is shown with overflow hidden*/
+	background-color: transparent;
+	position: sticky;
+	/*stick to all pages with position sticky*/
+}
+.main-nav li a
+{
+	display:block;
+	color:white;
+	text-decoration: none;
+	padding: 14px 16px;
+	font-family: 'Bree Serif', serif;
+	font-size: 25px;
+	background-color: transparent;
+	transition:color .5s;
+}
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  right: 0%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+.instagram{
+	background: #ff0cff;
+	color: white;
+}
+/******************PAGE 1****************************PAGE 1************************PAGE 1********************PAGE 1*****************/
+/*.page2{
+	height: 100vh;
+	background-color: #ffce66;
+
+	background-repeat: no-repeat;
+	background-size: 50%;
+	
+	background-attachment: fixed;
+//}
+/*.a21{
+	position: relative;
+	
+}*/
+/*.page2 form {
+	position: relative;
+	background-color: black;
+	left:0px;
+	top: 50px;
+	font-family: 'Bree Serif', serif;
+
+
+}*/
+
+/*.heading1{
+	font-family: 'Cabin Condensed', sans-serif;
+	position: relative;
+	left: 0px;
+	top: 150px;
+}*/
+/*.heading2{
+		font-family: 'Cabin Condensed', sans-serif;
+	position: relative;
+	left: 0px;
+	top: 200px;
+}*//*
+.page2 form select
+{
+	background-color: white;
+	border: 1px solid #E0E0E0;
+	color:black;
+	border-radius: 25px 25px 25px 25px;
+	
+	padding: 10px;
+	width:400px;
+} */
+
+/*.page2 form textarea
+{
+	background-color: white;
+	color:black;
+	border-radius: 25px 25px 25px 25px;
+	border: 1px solid #E0E0E0;
+	
+
+	width:400px;
+}*/
+/*.page2 form [type=submit]{
+  left: 35%;
+  font-family: Arial; 
+  //margin: 10px 0;
+  //padding: 10px;
+  width: 100px;
+  position: relative;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 25px 25px 25px 25px;
+
+}*/
+/*.head1{
+
+	font-family: 'lulo_clean';
+	font-size: 50px;
+	top: 0px;
+	position: relative;
+	float: left;
+	background-color: transparent;
+}*/
+/*.page2 form [type=submit]:hover
+{
+	background-color: #ad8b35;
+	color:white;
+}*/	
+/*.page2 form select option:hover
+{
+	border-radius: 25px 25px 25px 25px;
+}
+.page2 form select:hover
+{
+	background-color: white;
+	color:white;
+}*/
+
+/*.page2 form{
+	background-color: transparent;
+}*/
+.page3
+{
+		height: 100vh;
+	background-color: white;
+	/*background-image: url(bg4.jpg);*/
+	background-repeat: no-repeat;
+	background-size: 50%;
+	/*float: left;*/
+	background-attachment: fixed;
+}
+.page3 img
+{
+
+	height: 100%;
+	width: 40%;
+	position: relative;
+	top: 0;
+	float: left;	
+}
+.p3{
+	color: black;
+	font-family: 'lulo_clean';
+	font-size: 45px;
+	float: right;
+	position: relative;
+	right: 50px;
+	top: 50px;
+
+}
+/*.page2 select{
+	margin: 20,10;
+}*/
+
+
+/*.main-nav li.active a
+{
+	background-color: transparent;
+	color:white;
+}*/
+
+/*************************PAGE 2**********PAGE 2**********PAGE2***************PAGE2********************PAGE2**********************/
+.page2{
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("bg9.jpg")  ;
+	height: 100vh;
+	width: 100%;
+	background-repeat: no-repeat; 
+    background-size: 100%;
+    position: relative;
+}
+/*.page2 img{
+	height: 100vh;
+	width: 100%;
+	left: 0;
+
+}*/
+.f1{
+	height: 100vh;
+	width: 30%;
+	right: 20%;
+    padding: 120px 50px;
+}
+.page2 form {
+	position: relative;
+	background-color:transparent;
+	left:0px;
+	top: 0px;
+	bottom: 0px;
+	font-family: 'Bree Serif', serif;
+	color: white;
+	font-size: 20px;
+}
+.page2 form textarea
+{
+	background-color: white;
+	color:black;
+	border-radius: 25px 25px 25px 25px;
+	border: 1px solid #E0E0E0;
+	
+
+	width:400px;
+}
+.page2 form select
+{
+	background-color: white;
+	border: 1px solid #E0E0E0;
+	color:black;
+	border-radius: 25px 25px 25px 25px;
+	
+	padding: 10px;
+	width:400px;
+} 
+.page2 form [type=submit]{
+  left: 35%;
+  font-family: Arial; 
+  //margin: 10px 0;
+  //padding: 10px;
+  width: 100px;
+  position: relative;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 25px 25px 25px 25px;
+
+}
+.page2 form select option:hover
+{
+	border-radius: 25px 25px 25px 25px;
+}
+.page2 form select:hover
+{
+	background-color: #ffca51;
+	color:white;
+}
+/*************************PAGE 2**********PAGE 2**********PAGE2***************PAGE2********************PAGE2**********************/
+.page3{
+	height: 100vh;
+    background-color: white;
+    position: relative;
+    top: 0;	 
+    font-family:'Bree Serif', serif;
+}
+.i1
+{
+	height: 100vh;
+	width: 30%;
+	background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(bg4.jpg);
+	background-size: 100%;
+	background-position: center;
+	left:0px;
+	position: relative;
+	float: left;
+}
+.i1 p
+{
+	position: relative;
+	font-size: 35px;
+	color: white;
+	text-align: center;
+	top:150px;
+}
+.i2
+{
+	height: 100vh;
+	width: 30%;
+	background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(bg6.jpg);
+	background-size: 150%;
+	background-position: center;
+	top:0px;
+	left:35%;
+	float: center;
+	position: relative;
+}
+.i2 p
+{
+	position: absolute;
+	font-size: 35px;
+	color: white;
+	left: 130px;
+	top:150px;
+	text-align: center;
+}
+.i3
+{
+	height: 100vh;
+	width: 30%;
+	background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(bg10.jpg);
+	background-size: 200%;
+	background-position: right;
+	top:0px;
+	float: right;
+	right: 0;
+	position: absolute;
+}
+.i3 p
+{
+	position: relative;
+	top:150px;
+	font-size: 35px;
+	color: white;
+	text-align: center;
+}
+.page4
+{
+	height:30vh;
+	background-color:white;
+	position: relative;
+	top:0px;
+	background-image: linear-gradient(rgba(10,58,255,0.1),rgba(255,0,180,0.1));
+}
+.page4 p
+{
+	position: relative;
+	font-size: 20px;
+	right:125px;
+	top: 50px;
+	text-align: center;
+}
+.color
+{
+	color: black;
+}
+button
+{
+	background-color: transparent;
+	border:2px solid black;
+	color: white;
+	position: absolute;
+	padding:10px;
+	left:42%;
+	top:450px;
+	transition: .5s background-color;
+}
+.i2 button
+{
+	float: right;
+	left:42%;
+	top:450px;
+	padding: 10px;
+	position: absolute;
+	background-color: transparent;
+	border:2px solid black;
+	color: white;
+}
+button:hover
+{
+	background-color: black;
+	color: white;
+}
+#a1
+{
+	text-align: right;
+	
+}
